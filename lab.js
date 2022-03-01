@@ -107,10 +107,9 @@ for(let i = 0; i < numbers.length; i++){
 
 //CODE HERE
 var numsArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-for(let i = numsArr.length; i >= 0; i--){
+for(let i = numsArr.length - 1; i >= 0; i--){
   console.log(numsArr[i])
 }
-//! Why do I get "Undefined" as one of my answers in this problem? If I change "let i = numsArr.length" to "let i = 10", I don't get this error.
 ////////// PROBLEM 8 //////////
 
 let score = 0;
